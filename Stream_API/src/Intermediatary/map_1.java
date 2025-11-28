@@ -28,6 +28,8 @@ public class map_1 {
 		
 		System.out.println(list4);
 		
+		System.out.println("************************************");
+		
 		list4.stream().forEach((i)->{i.stream().forEach((j)->{System.out.println(j*2);});});
 		
 	}
