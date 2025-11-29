@@ -1,12 +1,11 @@
 
-//////array reverse
-
+//////array average
 
 package Array_examples;
 
 import java.util.Scanner;
 
-public class Sixth {
+public class seventh {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -20,16 +19,14 @@ public class Sixth {
 			arr[i]=sc.nextInt();
 		}
 		
-		System.out.println("array elements are");
+		int sum=0;
 		for(int i=0;i<arr.length;i++) {
-			System.out.print(arr[i]+" ");
+			 sum=arr[i]+sum;
 		}
-		System.out.println();
-		System.out.println("reversed array elements are");
-		for(int i=arr.length-1;i>=0;i--) {
-			System.out.print(arr[i]+" ");
-		}
+        System.out.println("sum of array elements= "+sum);
+        float avg=sum/arr.length;
+        System.out.println("average of array elements= "+avg);
 	}
-	
 
 }
+
