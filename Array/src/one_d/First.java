@@ -16,12 +16,6 @@ public class First {
 			for(int i=0;i<arr.length;i++) {
 				System.out.print(arr[i]+" ");
 			}
-			
-//			int arr1[]= {10,20,30,40,50};
-//			
-//			System.out.println(Arrays.toString(arr1));
-
-		
 
 	}
 
