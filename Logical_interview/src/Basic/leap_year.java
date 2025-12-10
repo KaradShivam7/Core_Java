@@ -8,12 +8,12 @@ class leap_year
 
      if((Year%4==0) && (Year%100!=0) || (Year%400==0))
       {
-       System.out.println("the given year is a leap year");
+       System.out.println(" a leap year");
       }
 
      else
          {
-           System.out.println("the given year is not a leap year");
+           System.out.println(" not a leap year");
          }
   }
 }
