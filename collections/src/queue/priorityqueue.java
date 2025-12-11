@@ -19,7 +19,7 @@ public class priorityqueue {
 		System.out.println(q1);
 		
 		
-		q1.add("G");
+		q1.add("X");
 		System.out.println(q1);
 		
 		 System.out.println(q1.poll());
