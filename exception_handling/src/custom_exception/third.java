@@ -22,7 +22,7 @@ class InvalidStudentIdException extends Exception {
 class Student {
  public void register(int id) throws InvalidStudentIdException {
      if (id <= 0) {
-         throw new InvalidStudentIdException("Student ID must be positive!");
+         throw new InvalidStudentIdException("Student ID must be positive!!!");
      }
      System.out.println("Student registered with ID: " + id);
  }
