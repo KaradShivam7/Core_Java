@@ -22,7 +22,7 @@ class InvalidQuestionException extends RuntimeException {
 class Quiz {
  public void addQuestion(String question) {
      if (question == null || question.isEmpty()) {
-         throw new InvalidQuestionException("Question cannot be empty!");
+         throw new InvalidQuestionException("Question cannot be empty!!!");
      }
      System.out.println("Question added: " + question);
  }
