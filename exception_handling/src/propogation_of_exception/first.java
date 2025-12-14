@@ -5,7 +5,7 @@ public class first {
 	public static void main(String[] args) {
 		 Test t = new Test();
 	        t.c();
-	        System.out.println("Normal flow continues...");
+	        System.out.println("Normal flow continues..");
 	}
 
 }
