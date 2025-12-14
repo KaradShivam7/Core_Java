@@ -8,7 +8,7 @@ public class Third {
 	public static void main(String[] args) {
 		int str;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter value");
+		System.out.println("enter value:");
 		
 		try {
 			str=sc.nextInt();
