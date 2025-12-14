@@ -6,7 +6,7 @@ public class First {
 	        try {
 	            System.out.println(calc.divide(10, 0));
 	        } catch (ArithmeticException e) {
-	            System.out.println("Handled: " + e.getMessage());
+	            System.out.println("Handled:: " + e.getMessage());
 	}
 }
 }
