@@ -11,7 +11,7 @@ public class first {
 			int k=i/j;
 		}
 		finally{
-			System.out.println("inside finally");
+			System.out.println("inside finally!");
 		}
 	
 	}
