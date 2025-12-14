@@ -13,7 +13,7 @@ public class Second {
 			System.out.println(ex.getMessage());
 		}
 		finally {
-			System.out.println("inside finally");
+			System.out.println("inside finally!");
 			
 		}
 	}
