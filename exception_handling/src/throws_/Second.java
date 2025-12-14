@@ -7,7 +7,7 @@ public class Second {
 	        try {
 	            bank.withdraw(2500); // more than balance
 	        } catch (Exception e) {
-	            System.out.println("Exception caught: " + e.getMessage());
+	            System.out.println("Exception caught:: " + e.getMessage());
 	}
 
 }
