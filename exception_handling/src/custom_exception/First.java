@@ -7,7 +7,7 @@ public class First {
 	     try {
 	         acc.withdraw(1500); // throws custom exception
 	     } catch (InsufficientBalanceException e) {
-	         System.out.println("Handled: " + e.getMessage());
+	         System.out.println("Handled:: " + e.getMessage());
 	     }
 	}
 
