@@ -8,7 +8,7 @@ public class Fourth {
 	c.div(10, 2);
 	}
 	catch(ArithmeticException ex) {
-		System.out.println("exception caused: " +ex.getMessage());
+		System.out.println("exception caused:: " +ex.getMessage());
 	}
 	}
 
