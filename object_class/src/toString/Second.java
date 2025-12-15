@@ -23,7 +23,8 @@ class BankAccount extends Object {
    
     public String toString() {
         return "BankAccount [AccountNumber=" + accountNumber +
-               ", HolderName=" + holderName +
-               ", Balance=" + balance + "]";
+                ", HolderName=" + holderName +
+                ", Balance=" + balance + "]";
     }
+    
 }
