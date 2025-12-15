@@ -13,6 +13,7 @@ public class Third {
 		try {
 			str=sc.nextInt();
 			System.out.println(str);
+			//throw new InputMismatchException("Input does not match");
 			}
 		catch(InputMismatchException e) {
 			System.out.println(e.getMessage());
