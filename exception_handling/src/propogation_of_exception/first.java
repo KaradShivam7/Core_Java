@@ -20,7 +20,7 @@ class Test {
         try {
             b(); // exception propagates here
         } catch (ArithmeticException e) {
-            System.out.println("Exception handled in c()");
+            System.out.println("exception handled in c!");
         }
     }
 }
