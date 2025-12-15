@@ -15,7 +15,7 @@ class prime_number
               if(num%i==0)
 		{
                   count++;
-		  break;
+		
 		}
 	   }
                 if(count==0)
