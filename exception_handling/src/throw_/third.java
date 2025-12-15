@@ -4,7 +4,7 @@ public class third {
 
 	public static void main(String[] args) {
 		bank b=new bank();
-		b.dopayment(200);
+		b.dopayment(2000);
 	}
 
 }
@@ -14,11 +14,11 @@ class bank{
 	public void dopayment(int i) {
 		try {
 			if(balance<i) {
-				throw new Exception("insufficiant fund!");    //checked exception
+				throw new Exception("insufficiant fund!!!");    //checked exception
 			}
 			else {
-				System.out.println("initiating payment");
-				System.out.println("payment done");
+				System.out.println("initiating payment!");
+				System.out.println("payment done!");
 				System.out.println("remaining balance = "+ (balance-i));
 			}
 		}
