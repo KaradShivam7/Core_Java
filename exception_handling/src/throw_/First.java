@@ -11,15 +11,20 @@ public class First {
 		
 		try {
 			if(age<18) {
+				
 				throw new Exception("age is below 18");
 			}
+			System.out.println("you are elligible for voting");
 		}
+		
 		catch(Exception ex) {
 			System.out.println(ex.getMessage());
 		}
+		
 		finally {
 			System.out.println("inside finally");
 		}
+		
 		sc.close();
 	}
 
