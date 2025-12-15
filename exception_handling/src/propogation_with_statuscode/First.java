@@ -10,6 +10,7 @@ public class First {
 		         System.out.println("Handled in main: " + e.getMessage() +
 		                            " | Status Code: " + e.getStatusCode());
 		     }
+		   
 	}
 
 }
@@ -32,6 +33,7 @@ class StudentService {
      if (id <= 0) {
          throw new StudentException("Invalid Student ID!", 400); // 400 = Bad Request
      }
+     System.out.println("your id is: "+ id);
  }
 }
 
