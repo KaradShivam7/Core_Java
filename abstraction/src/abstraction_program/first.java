@@ -10,10 +10,14 @@ public class first {
 
 }
 abstract class demo{
+	
+	public demo() {
+		System.out.println("hii");
+	}
 	public abstract void show();
 }
 
-class demo1 extends demo{
+ class demo1 extends demo{
 
 	
 	public void show() {
