@@ -17,7 +17,7 @@ public class map_1 {
 //		List<Integer> list2 =new ArrayList<Integer>();
 //		list2.add(50);
 //		list2.add(60);
-//		
+		
 //		List<Integer> list3 =new ArrayList<Integer>();
 //		list3.add(70);
 //		list3.add(80);
@@ -29,6 +29,7 @@ public class map_1 {
 		System.out.println(list4);
 		
 		System.out.println("************************************");
+		
 		
 		list4.stream().forEach((i)->{i.stream().forEach((j)->{System.out.println(j*2);});});
 		
