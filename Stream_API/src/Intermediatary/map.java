@@ -13,7 +13,7 @@ public class map {
 		list.add(30);
 		
 		System.out.println(list);
-		System.out.println("**************************");
+		System.out.println("*************************");
 		
 		list.stream().map((i)->{return Double.valueOf(i);}).filter((i)->{return i<=30;}).forEach((i)->{System.out.println(i*2);});
 	}
