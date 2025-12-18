@@ -31,21 +31,12 @@ public class Logical {
 		list.add("bournvita");
 		
 		list.stream()
-		.filter((i)->{return i.startsWith("b");})
-		.map((i)->{return i.toUpperCase();})
-		.map((i)->{return i.length();})
+		.filter((i)->(i.startsWith("b")))
+		.map((i)->( i.toUpperCase()))
+		.map((i)->( i.length()))
 		.distinct()
-		.sorted(new reverse1())
+		.sorted((o1,o2)->(o2-o1))
 		.forEach((i)->{System.out.println(i);});
 	}
 
-}
-class reverse1 implements Comparator<Integer>{
-
-	@Override
-	public int compare(Integer o1, Integer o2) {
-		// TODO Auto-generated method stub
-		return o2-o1;
-	}
-	
 }
