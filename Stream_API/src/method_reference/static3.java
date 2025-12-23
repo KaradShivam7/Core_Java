@@ -6,7 +6,7 @@ import java.util.List;
 public class static3 {
 
 	public static void main(String[] args) {
-		List<String> list =Arrays.asList("karad","kaka","karanataka","maharastra","latur");
+		List<String> list =Arrays.asList("karad","kaka","mama","karanataka","maharastra","latur");
 		
 		list.stream().filter(check::end)
 		.map(check::change)
