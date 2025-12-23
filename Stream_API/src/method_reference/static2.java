@@ -13,7 +13,7 @@ public class static2 {
 		//addition of length square
 		
 		
-		List<String> list=Arrays.asList("shiv","shivam","karad","shantaram","latur","solapur","pune");
+		List<String> list=Arrays.asList("shiva","shiv","shivam","karad","shantaram","latur","solapur","pune");
 	
 	    list.stream().filter(demo::start)
 	    .map(demo::length)
