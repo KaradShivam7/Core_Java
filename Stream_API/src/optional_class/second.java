@@ -22,6 +22,8 @@ public class second {
 		System.out.println("****************");
 		
 		ops1.ifPresentOrElse((i)->{System.out.println(i);}, ()->{System.out.println("karad");});
+		System.out.println("****************");
+		
 		
 	}
 
