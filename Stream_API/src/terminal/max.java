@@ -19,7 +19,8 @@ public class max {
 		
 		System.out.println(list);
 		
-		Optional<Integer> max = list.stream().max((a,b)->(b-a));
+		System.out.println(list.stream().findFirst());
+		Optional<Integer> max = list.stream().max((a,b)->(a-b));
 		System.out.println(max);
 	}
 
