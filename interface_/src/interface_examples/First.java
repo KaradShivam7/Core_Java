@@ -19,13 +19,13 @@ interface Animal {
 //Implementing classes
 class Dog implements Animal {
  public void sound() {
-     System.out.println("Dog barks");
+     System.out.println("Dog sounds barks");
  }
 }
 
 class Cat implements Animal {
  public void sound() {
-     System.out.println("Cat meows");
+     System.out.println("Cat sounds meows");
  }
 }
 
