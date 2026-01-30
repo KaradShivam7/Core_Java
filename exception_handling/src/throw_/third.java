@@ -4,7 +4,7 @@ public class third {
 
 	public static void main(String[] args) {
 		bank b=new bank();
-		b.dopayment(2000);
+		b.dopayment(20000);
 	}
 
 }
