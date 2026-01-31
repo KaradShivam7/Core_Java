@@ -17,7 +17,7 @@ class student{
 	float marks;
 	
 	public student(){
-		System.out.println("inside parameter-less constructor");
+		System.out.println("inside parameter-less constructors");
 		id=1;
 		name="shiv";
 		marks=83.00f;
