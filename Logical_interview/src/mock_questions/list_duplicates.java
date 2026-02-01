@@ -9,7 +9,7 @@ import java.util.TreeSet;
 public class list_duplicates {
 
 	public static void main(String[] args) {
-		List<Integer> list= Arrays.asList(10,2,4,2,5,4,3,10,7,9,1);
+		List<Integer> list= Arrays.asList(10,2,4,2,5,4,3,10,7,9,1,12);
 		//System.out.println(list);
 		
 		List<Integer> list2=new ArrayList<Integer>();
