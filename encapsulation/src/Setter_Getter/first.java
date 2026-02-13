@@ -6,7 +6,7 @@ public class first {
 		student s=new student();
 		s.setName("shivam");
 		s.setId(1);
-		s.setMarks(83.00f);
+		s.setMarks(83.0f);
 		
 		System.out.println(s.getName());
 		System.out.println(s.getId());
