@@ -7,7 +7,7 @@ public class First {
 		     try {
 		         s.validateId(-10); // invalid ID
 		     } catch (StudentException e) {
-		         System.out.println("Handled in main: " + e.getMessage() +
+		         System.out.println("Handled in main : " + e.getMessage() +
 		                            " | Status Code: " + e.getStatusCode());
 		     }
 		   
