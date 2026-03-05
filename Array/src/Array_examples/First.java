@@ -17,7 +17,7 @@ public class First {
 		
 		int arr[]=new int[n];
 		
-		System.out.println("enter elements of array");
+		System.out.println("enter elements of Array");
 		for(int i=0;i<n;i++) {
 	        arr[i]=sc.nextInt();
 	        }
