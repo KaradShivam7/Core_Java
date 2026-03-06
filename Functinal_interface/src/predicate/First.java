@@ -9,7 +9,7 @@ public class First {
 		
 		Predicate<Integer> pred =(i)->{return i<10;};
 		
-		System.out.println(pred.test(5));
+		System.out.println(pred.test(85));
 	}
 
 }
