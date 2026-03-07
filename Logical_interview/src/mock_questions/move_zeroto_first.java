@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class move_zeroto_first {
 
 	public static void main(String[] args) {
-		int arr[]= {1,0,4,0,5,0,2,0,0};
+		int arr[]= {1,0,4,0,5,0,2,0,0,4,0};
 		int arr1[]=new int[arr.length];
 		
 		int counter=arr.length-1;
