@@ -31,7 +31,7 @@ class StudentException extends Exception {
 class StudentService {
  public void validateId(int id) throws StudentException {
      if (id <= 0) {
-         throw new StudentException("Invalid Student ID!", 400); // 400 = Bad Request
+         throw new StudentException("Invalid Student ID!", 400); // 400 = Bad Request!
      }
      System.out.println("your id is: "+ id);
  }
