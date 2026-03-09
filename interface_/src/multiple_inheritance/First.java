@@ -11,12 +11,12 @@ public class First {
 }
 interface a{
 	default void show() {
-		System.out.println("message form a");
+		System.out.println("message form a  ");
 	}
 }
 interface b{
 	default void show() {
-		System.out.println("message form b");
+		System.out.println("message form b  ");
 	}
 }
 class c implements a,b{
