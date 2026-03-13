@@ -8,13 +8,13 @@ public class logical1 {
 
 	public static void main(String[] args) {
 		/**
-		 * "ababcdeeeffgggghi"
+		 * "ababcdeeeffgggghii"
 		 * "abcdefghi"
 		 * "ihgfedcba"
 		 * "IHGFEDCBA"
 		 */
 		
-		String str = new String("ababcdeeeffgggghi");
+		String str = new String("ababcdeeeffgggghii");
 		
 		char[]arr=str.toCharArray();
 		
