@@ -31,7 +31,7 @@ class BankAccount {
 
     void withdraw(double amount) throws BankException {
         if (amount > balance) {
-            throw new BankException("Insufficient Balance!", 402); // 402 = Payment Required
+            throw new BankException("Insufficient Balance!!!", 402); // 402 = Payment Required
         }
         balance -= amount;
         System.out.println("Withdrawal successful. Balance: " + balance);
