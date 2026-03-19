@@ -12,6 +12,7 @@ public class treemap {
 		map.put(1, "shiv");
 		map.put(2, "shivam");
 		map.put(3, "karad");
+		map.put(4, "Shivam Karad");
 		
 		System.out.println(map);
 	}
