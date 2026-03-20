@@ -14,6 +14,7 @@ public class findlast {
 		list.add(4);
 		list.add(5);
 		list.add(6);
+		list.add(90);
 		
 		
 		System.out.println(list);
