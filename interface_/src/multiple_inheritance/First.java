@@ -11,7 +11,7 @@ public class First {
 }
 interface a{
 	default void show() {
-		System.out.println("message form a  ");
+		System.out.println("message form a interface ");
 	}
 }
 interface b{
