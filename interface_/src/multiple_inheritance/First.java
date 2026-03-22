@@ -16,7 +16,7 @@ interface a{
 }
 interface b{
 	default void show() {
-		System.out.println("message form b  ");
+		System.out.println("message form b interface  ");
 	}
 }
 class c implements a,b{
