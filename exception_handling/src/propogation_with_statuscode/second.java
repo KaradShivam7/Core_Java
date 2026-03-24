@@ -5,7 +5,7 @@ public class second {
 	public static void main(String[] args) {
 		 BankAccount acc = new BankAccount();
 	        try {
-	            acc.withdraw(1500); // invalid withdrawal
+	            acc.withdraw(1500); 
 	        } catch (BankException e) {
 	            System.out.println("Error: " + e.getMessage() +
 	                               " | Status Code: " + e.getStatusCode());
