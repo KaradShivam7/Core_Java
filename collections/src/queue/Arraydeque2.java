@@ -10,6 +10,7 @@ public class Arraydeque2 {
 		dq.add(10);
 		dq.add(20);
 		dq.add(30);
+		dq.add(40);
 		System.out.println(dq);
 		System.out.println(dq.peekLast());
 		System.out.println(dq.pollLast());
