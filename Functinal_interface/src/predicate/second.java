@@ -12,6 +12,8 @@ public class second {
 		System.out.println(pred.test(5));
 		System.out.println("**************************");
 		System.out.println(pred.test(10));
+		System.out.println("**************************");
+		System.out.println(pred.test(15));
 	}
 
 }
