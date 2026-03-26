@@ -30,7 +30,7 @@ public class multi1 {
 //		};
 		
 		
-		//t.start();
+//		t.start();
 		
 			}
 	
