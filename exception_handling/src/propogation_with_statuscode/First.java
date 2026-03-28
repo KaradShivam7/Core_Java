@@ -5,7 +5,7 @@ public class First {
 	public static void main(String[] args) {
 		   StudentService s = new StudentService();
 		     try {
-		         s.validateId(-10); // invalid ID
+		         s.validateId(-12); // invalid ID
 		     } catch (StudentException e) {
 		         System.out.println("Handled in main : " + e.getMessage() +
 		                            " | Status Code: " + e.getStatusCode());
