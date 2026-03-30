@@ -6,7 +6,7 @@ public class first {
 		 
 		student s=new student();
 		
-		System.out.println("id="+s.id+" name="+s.name+" marks="+s.marks);
+		System.out.println("id="+s.id+" name="+s.name+" marks ="+s.marks);
 	}
 
 }
@@ -19,7 +19,7 @@ class student{
 	public student(){
 		System.out.println("inside parameter-less constructors");
 		id=1;
-		name="shivam";
+		name="shivam Karad";
 		marks=83.00f;
 	}
 }
